@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta name="google-site-verification" content="t1p6SsueL9NjmbrpWQkeNKEEvXeAmowej8Fcrr2cSxw" />
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="theme-color" content="#4f46e5">
+     
+     <meta name="robots" content="noindex, nofollow">
+     <meta name="googlebot" content="noindex, nofollow">
+     
+     <meta name="description" content="Awesome Gallery: A mobile-friendly image gallery with search, fullscreen view, and one-tap downloads. Explore stunning free photos from the Unsplash API.">
+     <meta name="keywords" content="awesome gallery, image gallery, photo gallery, free image search, download photos, unsplash images, mobile gallery">
+     <meta property="og:title" content="Awesome Gallery | Search & Download">
+     <meta property="og:description" content="Awesome Gallery: Discover, view in fullscreen, and download beautiful free images from Unsplash.">
+     <meta property="og:url" content="https://sammyn07.github.io/Awesome-Gallery/">
+     <meta property="og:type" content="website">
+     <meta property="og:image" content="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=400&auto=format&fit=crop">
+     
+     <link rel="stylesheet" href="style.css">
+     <title>Awesome Gallery | Search & Download</title>
+     <link rel="shortcut icon" href="https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=100&auto=format&fit=crop" type="image/png">
+     <style>
+       .download-icon::before { content: "↓"; margin-right: 5px; }
+       .attribution {
+         padding: 0 10px 5px;
+         font-size: 12px;
+         color: #666;
+         line-height: 1.4;
+       }
+       .attribution a {
+         color: #0066cc;
+         text-decoration: none;
+       }
+       .maintenance-note {
+         text-align: center;
+         padding: 1.2rem;
+         background-color: #ffcc00;
+         color: #2d2d2d;
+         font-weight: bold;
+         font-size: 1rem;
+         border-radius: 8px;
+         max-width: 800px;
+         margin: 0 auto 2rem;
+         box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+       }
+     </style>
+   </head>
+   <body>
+     <h1>Awesome Gallery</h1>
+     <div class="maintenance-note">
+       🛠️ Site under quick maintenance – updating to comply with image licensing rules! Back soon with a better experience.
+     </div>
+     
+     <p class="intro">Welcome to Awesome Gallery — your go-to spot for finding, viewing, and downloading stunning free images from around the world. Search for any topic and enjoy fullscreen previews with one-tap downloads.</p>
+     
+     <form id="search-form">
+       <input type="text" id="search-input" placeholder="Search for more images... (e.g., mountains, beaches)">
+       <button type="submit" id="search-button">Search</button>
+     </form>
+     <div class="search-results"></div>
+     <button id="show-more-button">Show More</button>
+     <div id="fullscreen-overlay"></div>
+     <footer>
+           <p>© 2025 Awesome Gallery</p>
+       </footer>
+     
+     <script src="index.js"></script>
+   </body>
+   </html>
